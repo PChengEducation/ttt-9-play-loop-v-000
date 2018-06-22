@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
 game_turn == 1
-While game_turn < 10
+While game_turn < 10 do
 turn(board)
 game_turn += 1
 end
